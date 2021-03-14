@@ -24,7 +24,7 @@ cd /Users/dustin/Downloads/Pimage-main/PimagePiDayProject/Pimage/bin/Release/net
 
 **Building on OS X and Linux**
 
-!Only important if you want to build the application yourself!
+_Only important if you want to build the application yourself_
 
 Make sure you have mono-libgdiplus (Mac) or libgdiplus (Linux) installed. Missing this package could cause a program crash that is currently not correctly caught in the code. This steps might be optional. 
 
