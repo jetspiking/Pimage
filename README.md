@@ -9,7 +9,7 @@ Simply put a file "pimage.png" in the same directory as the executable. Execute 
 
 _Windows_
 
-Double click the .exe, no extra steps required.
+Double click the .exe, no extra steps required. If the application doesn't launch, navigate to the executable directory in commandprompt instead and launch it from there, you will then see a debug log which describes the issue. Most of the time this is due to .net core runtime missing.
 
 _Mac and Linux_
 
