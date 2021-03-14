@@ -29,7 +29,7 @@ _Mac and Linux_
 Change directory in terminal to the same folder as the pimage binary file.
 
 ```
-/Users/dustin/Downloads/Pimage-main/PimagePiDayProject/Pimage/bin/Release
+cd /Users/dustin/Downloads/Pimage-main/PimagePiDayProject/Pimage/bin/Release
 ```
 ```
 ./pimage
