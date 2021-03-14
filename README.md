@@ -1,6 +1,6 @@
 # Pimage
 
-Swap every pixel from your favorite .png for a number in Pi!
+Swap every pixel from your favorite .png for a number in Pi! When the maximum precision is reached it starts again from the beginning (only when resolution is higher than 100.000 pixels). 
 
 
 **Usage**
