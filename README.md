@@ -9,12 +9,13 @@ Make sure you have mono-libgdiplus (Mac) or libgdiplus (Linux) installed. Missin
 For Mac: 
 '''
 brew install mono-libgdiplus
+
 '''
 
 For Linux:
 '''
 apt(-get) install libgdiplus
-
+'''
 
 **Usage**
 
