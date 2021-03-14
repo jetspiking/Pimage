@@ -14,7 +14,7 @@ brew install mono-libgdiplus
 For Linux:
 '''
 apt(-get) install libgdiplus
-'''
+
 
 **Usage**
 
