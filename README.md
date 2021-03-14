@@ -7,15 +7,10 @@ Swap every pixel from your favorite .png for a number in Pi!
 Make sure you have mono-libgdiplus (Mac) or libgdiplus (Linux) installed. Missing this package can cause a program crash that is currently not correctly caught in the code. 
 
 For Mac: 
-'''
-brew install mono-libgdiplus
-
-'''
+'brew install mono-libgdiplus'
 
 For Linux:
-'''
-apt(-get) install libgdiplus
-'''
+'apt(-get) install libgdiplus
 
 **Usage**
 
