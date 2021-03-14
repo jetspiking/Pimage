@@ -24,7 +24,7 @@ namespace Pimage
             Console.ForegroundColor = ConsoleColor.Green;
             String height = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Working on your image, please wait a few Pi seconds :) ...");
+            Console.WriteLine("Working on your image, please wait a few Piconds :) ...");
             try
             {
                 int fontSizeInt = int.Parse(fontSize);
