@@ -20,10 +20,10 @@ apt(-get) install libgdiplus
 
 Simply put a file "pimage.png" in the same directory as the executable. Execute and enter desired fontsize, width and height. That's it! 
 
-_For Windows: _
+_For Windows_
 Double click the .exe, no extra steps required.
 
-_For Mac and Linux: _
+_For Mac and Linux_
 Change directory in terminal to the same folder as the pimage binary file.
 
 ```
