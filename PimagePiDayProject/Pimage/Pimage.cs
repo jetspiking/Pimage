@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Text;
 
 namespace Pimage
@@ -13,14 +14,12 @@ namespace Pimage
         public static bool ToPimage(String _rootFolder, int fontSize, int numberWidth, int numberHeight)
         {
             _fontSize = fontSize;
-            Bitmap toLoad = LoadBitmap(_rootFolder + "/pimage.png");
-            if (toLoad != null)
-            {
-                Bitmap bitmap = CreatePimage(toLoad, numberWidth, numberHeight);
-                bitmap.Save(_rootFolder + "/pimage_result.png");
-                return true;
-            } 
-            return false;
+            String path = _rootFolder + "/pimage.png";
+            if (!File.Exists(path)) return false;
+            Bitmap toLoad = LoadBitmap(path);
+            Bitmap bitmap = CreatePimage(toLoad, numberWidth, numberHeight);
+            bitmap.Save(_rootFolder + "/pimage_result.png");
+            return true;
         }
 
         public static Bitmap LoadBitmap(String path)
@@ -53,7 +52,7 @@ namespace Pimage
                 for (int column = 0; column < width; column++)
                 {
                     Color pixel = resizedSource.GetPixel(column, row);
-                    if ((pixel == Color.Transparent) || (pixel.A==0)) continue;
+                    if ((pixel == Color.Transparent) || (pixel.A == 0)) continue;
                     graphics.DrawString(_pi[i++].ToString(), new Font("Arial", _fontSize), new SolidBrush(pixel), new PointF(column * _fontSize, row * _fontSize));
                     if (i >= _pi.Length) i = 0;
                 }
