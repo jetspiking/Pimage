@@ -7,15 +7,6 @@ ______ _
                           __/ |     
                          |___/  
 
-
- _______  ___   __   __  _______  _______  _______ 
-|       ||   | |  |_|  ||   _   ||       ||       |
-|    _  ||   | |       ||  |_|  ||    ___||    ___|
-|   |_| ||   | |       ||       ||   | __ |   |___ 
-|    ___||   | |       ||       ||   ||  ||    ___|
-|   |    |   | | ||_|| ||   _   ||   |_| ||   |___ 
-|___|    |___| |_|   |_||__| |__||_______||_______|
-
 # Pimage
 
 Swap every pixel from your favorite .png for a number in Pi! When the maximum precision is reached it starts again from the beginning (only when resolution is higher than 100.000 pixels). 
