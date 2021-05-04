@@ -16,7 +16,7 @@ Swap every pixel from your favorite .png for a number in Pi! When the maximum pr
 
 **Usage**
 
-Simply put a file "pimage.png" in the same directory as the executable. Execute and enter desired fontsize, width and height. That's it! Afterwards the result is visible in the file ```pimage_result.png```.
+Simply put a file ```pimage.png``` in the same directory as the executable. Execute and enter desired fontsize, width and height. That's it! Afterwards the result is visible in the file ```pimage_result.png```.
 
 _Windows_
 
